@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'board.dart';
 
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home:GameBoard(),
 
