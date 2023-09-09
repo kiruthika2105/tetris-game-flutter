@@ -14,12 +14,11 @@ class Pixel extends StatelessWidget{
   Widget build(BuildContext context){
     return Container(
       decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(4)),
-      margin: EdgeInsets.all(1), //space between the boxes
+      margin: const EdgeInsets.all(1), //space between the boxes
       child: Center(
         child: Text(
           child.toString(),
-          style:TextStyle(
-              color: Colors.white),),),
+          style: const TextStyle(color: Colors.white),),),
     );
 
   }
